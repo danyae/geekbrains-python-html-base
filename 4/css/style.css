@@ -1,0 +1,130 @@
+body {
+    background-color: #f8f8f8
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu a {
+    color: #5143cc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: orangered;
+}
+
+.product p:first-letter {
+    color: orangered;
+    font-size: 22px;
+}
+
+.product-img {
+    border: 1px solid #5143cc;
+}
+
+.product-img:hover {
+    border-color: transparent;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specifications > li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-image: url(../img/button_icon.png);
+}
+
+label{
+    height: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #5143cc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-field:focus{
+    outline: 2px solid #5143cc
+}
+
+input[type=text]{
+    text-transform: capitalize;
+}
+
+.email-box:focus{
+    background-color: lightgray;
+    color: #5143cc;
+}
+
+textarea {
+    width: 400px;
+    height: 90px;
+    color: #5143cc;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #5143cc;
+    font-weight:300;
+    color:#FFFFFF;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+	width: 50%;
+	height: 100px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+td {
+	width: 20%;
+	border: 1px solid #000;
+	vertical-align: top;
+	padding: 20px 10px;
+}
+
+table tr:first-child {
+    height:180px;
+}
